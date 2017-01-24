@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-android-fullscreen-splash" version="1.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>Fullscreen Splash</name>
+    <author>Chris Durfee</author>
+    <description>Cordova plugin to add the fullscreen settings to android.</description>
+    <keywords>cordova fullscreen splash</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="android">
+      <config-file target="AndroidManifest.xml" parent="/manifest">
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+      </config-file>
+    </platform>
+</plugin>
