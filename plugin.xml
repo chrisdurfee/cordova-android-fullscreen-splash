@@ -10,7 +10,7 @@
     </engines>
     <platform name="android">
       <config-file target="AndroidManifest.xml" parent="/manifest">
-        <activity android:name="android.intent.action.MAIN" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
       </config-file>
     </platform>
 </plugin>
